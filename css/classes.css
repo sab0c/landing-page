@@ -1,0 +1,51 @@
+.section{
+    min-height: 100vh;
+}
+
+.main-bg{
+    background-image:url(../img/gradiente.jpg); 
+    background-position:center center; 
+    background-size:cover;
+}
+
+.bg-color{
+    background-color:var(--background-color);
+}
+
+.main-content{
+    color:var(--light-gray-color);
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 10rem var(--gap);
+}
+
+.top3-content{
+    max-width: 65rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    min-height: 100vh;
+}
+
+.gallery-img img{
+    transition: all 330ms ease-in-out;
+}
+
+.gallery-img img:hover{
+    transform: scale(1.2) rotate(5deg);
+}
+
+.footer p{
+    margin: 0;
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+.footer{
+    padding: 2.5rem 0;
+    text-align: center;
+    color: var(--light-gray-color);
+}
+
